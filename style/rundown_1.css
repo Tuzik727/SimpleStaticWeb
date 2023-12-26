@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161616; 
+    color: #ffffff; 
+}
+
+h1 {
+    color: #ff5733; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0; 
+    background-color: #282525;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.4); 
+    overflow: hidden; 
+}
+
+th, td {
+    border: 1px solid #b5a7a7;
+    padding: 20px; 
+    text-align: left;
+}
+
+th {
+    background-color: #4a4a4a;
+    color: #d2401f;
+}
+
+.completed-main, .completed-secondary, .completed-overload, .completed-pe {
+    font-weight: bold;
+}
+
+.completed-main {
+    color: #28a745; /* Green for completed status */
+}
+
+.completed-secondary {
+    color: #007bff; /* Blue for completed status */
+}
+
+.completed-overload {
+    color: #ffc107; /* Yellow for completed status */
+}
+
+.completed-pe {
+    color: #673ab7; /* Purple for completed status */
+}
+
+@media (max-width: 767px) {
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th::before {
+        content: attr(data-label);
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+}

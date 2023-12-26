@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #333; /* Dark border */
+    padding: 20px;
+    background-color: #333; /* Even darker section background */
+}
+
+h1 {
+    color: #ff6666; /* Blood-red heading color */
+}
+
+h2 {
+    color: #ff9999; /* Slightly lighter red subheading color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #cccccc; /* Light gray text color for list items */
+}
