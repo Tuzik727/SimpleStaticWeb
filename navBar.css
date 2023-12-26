@@ -38,37 +38,6 @@ a:hover {
     border-bottom: 2px solid #00ff08;
 }
 
-.submenu {
-    position: relative;
-}
-
-.submenu ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    padding: 10px 0;
-    z-index: 1001;
-}
-
-.submenu:hover ul {
-    display: block;
-}
-
-.submenu li {
-    padding: 8px;
-}
-
-.submenu a {
-    font-size: 14px;
-}
-
-.submenu a:hover {
-    color: #00ff08;
-}
-
 @media (max-width: 768px) {
     ul {
         flex-direction: column;
@@ -77,12 +46,5 @@ a:hover {
 
     li {
         padding: 8px 0;
-    }
-
-    .submenu ul {
-        position: static;
-        box-shadow: none;
-        border-radius: 0;
-        display: block;
     }
 }
